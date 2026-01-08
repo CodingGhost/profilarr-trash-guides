@@ -7,62 +7,62 @@ tags:
 conditions:
 - name: Sonarr - ZeroTwo
   negate: false
+  pattern: ZeroTwo
   required: false
   type: release_group
-  pattern: ZeroTwo
 - name: Sonarr - ZeroTwo Aliases
   negate: false
+  pattern: Sonarr - ZeroTwo Aliases
   required: false
   type: release_group
-  pattern: Sonarr - ZeroTwo Aliases
 - name: Sonarr - TSCC
   negate: false
+  pattern: TSCC
   required: false
   type: release_group
-  pattern: TSCC
 - name: Sonarr - TvR
   negate: false
+  pattern: TvR
   required: false
   type: release_group
-  pattern: TvR
 - name: Sonarr - NIMA4K
   negate: false
+  pattern: NIMA4K
   required: false
   type: release_group
-  pattern: NIMA4K
 - name: Sonarr - TVS
   negate: false
+  pattern: TVS
   required: false
   type: release_group
-  pattern: TVS
 - name: Sonarr - PXL
   negate: false
+  pattern: PXL
   required: false
   type: release_group
-  pattern: PXL
 - name: Sonarr - CNY
   negate: false
+  pattern: CNY
   required: false
   type: release_group
-  pattern: CNY
 - name: Sonarr - WeebPinn
   negate: false
-  required: false
-  type: release_group
   pattern: WeebPinn
-- name: Sonarr - WalterBishop
-  negate: false
   required: false
   type: release_group
+- name: Sonarr - WalterBishop
+  negate: true
   pattern: WalterBishop
+  required: false
+  type: release_group
 - name: Sonarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Sonarr - Not REMUX
   negate: true
   required: true
-  type: source
   source: bluray_raw
+  type: source
 tests: []

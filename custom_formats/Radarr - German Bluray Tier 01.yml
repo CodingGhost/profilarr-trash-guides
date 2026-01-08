@@ -8,67 +8,67 @@ tags:
 conditions:
 - name: Radarr - ZeroTwo
   negate: false
+  pattern: ZeroTwo
   required: false
   type: release_group
-  pattern: ZeroTwo
 - name: Radarr - ZeroTwo Aliases
   negate: false
+  pattern: Radarr - ZeroTwo Aliases
   required: false
   type: release_group
-  pattern: Radarr - ZeroTwo Aliases
 - name: Radarr - TSCC
   negate: false
+  pattern: TSCC
   required: false
   type: release_group
-  pattern: TSCC
 - name: Radarr - TvR
   negate: false
+  pattern: TvR
   required: false
   type: release_group
-  pattern: TvR
 - name: Radarr - NIMA4K
   negate: false
+  pattern: NIMA4K
   required: false
   type: release_group
-  pattern: NIMA4K
 - name: Radarr - TVS
   negate: false
+  pattern: TVS
   required: false
   type: release_group
-  pattern: TVS
 - name: Radarr - PXL
   negate: false
+  pattern: PXL
   required: false
   type: release_group
-  pattern: PXL
 - name: Radarr - CNY
   negate: false
+  pattern: CNY
   required: false
   type: release_group
-  pattern: CNY
 - name: Radarr - WeebPinn
   negate: false
+  pattern: WeebPinn
   required: false
   type: release_group
-  pattern: WeebPinn
 - name: Radarr - MAMA
   negate: false
-  required: false
-  type: release_group
   pattern: Radarr - MAMA
-- name: Radarr - WalterBishop
-  negate: false
   required: false
   type: release_group
+- name: Radarr - WalterBishop
+  negate: true
   pattern: WalterBishop
+  required: false
+  type: release_group
 - name: Radarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Radarr - Not Remux
   negate: true
+  qualityModifier: remux
   required: true
   type: quality_modifier
-  qualityModifier: remux
 tests: []
