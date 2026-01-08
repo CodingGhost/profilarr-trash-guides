@@ -1,4 +1,7 @@
 # Unofficial TRaSH-Guides Database for Profilarr
+Modifications in this Fork aim on targeting lower bitrate Releases (~30mbit) to Suport older 4K TVs
+Also sone namings are changed for convenience
+
 
 This repository hosts [TRaSH-Guides's](https://trash-guides.info/) unofficial database for Profilarr containing:
 
