@@ -56,11 +56,6 @@ conditions:
   pattern: Radarr - MAMA
   required: false
   type: release_group
-- name: Radarr - WalterBishop
-  negate: true
-  pattern: WalterBishop
-  required: false
-  type: release_group
 - name: Radarr - Bluray
   negate: false
   required: true
