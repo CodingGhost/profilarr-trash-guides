@@ -6,192 +6,192 @@ tags:
 conditions:
 - name: Radarr - DETAiLS
   negate: false
+  pattern: DETAiLS
   required: false
   type: release_group
-  pattern: DETAiLS
 - name: Radarr - WAYNE
   negate: false
+  pattern: WAYNE
   required: false
   type: release_group
-  pattern: WAYNE
 - name: Radarr - WOMBAT
   negate: false
+  pattern: WOMBAT
   required: false
   type: release_group
-  pattern: WOMBAT
 - name: Radarr - SAUERKRAUT
   negate: false
+  pattern: SAUERKRAUT
   required: false
   type: release_group
-  pattern: SAUERKRAUT
 - name: Radarr - WvF
   negate: false
+  pattern: WvF
   required: false
   type: release_group
-  pattern: WvF
 - name: Radarr - 4KCONNECTiON
   negate: false
+  pattern: 4KCONNECTiON
   required: false
   type: release_group
-  pattern: 4KCONNECTiON
 - name: Radarr - STARS
   negate: false
+  pattern: STARS
   required: false
   type: release_group
-  pattern: STARS
 - name: Radarr - AWARDS
   negate: false
+  pattern: AWARDS
   required: false
   type: release_group
-  pattern: AWARDS
 - name: Radarr - DMPD
   negate: false
+  pattern: DMPD
   required: false
   type: release_group
-  pattern: DMPD
 - name: Radarr - EXCiTED
   negate: false
+  pattern: EXCiTED
   required: false
   type: release_group
-  pattern: EXCiTED
 - name: Radarr - iNTENTiON
   negate: false
+  pattern: iNTENTiON
   required: false
   type: release_group
-  pattern: iNTENTiON
 - name: Radarr - JaJunge
   negate: false
+  pattern: JaJunge
   required: false
   type: release_group
-  pattern: JaJunge
 - name: Radarr - MGE
   negate: false
+  pattern: MGE (1)
   required: false
   type: release_group
-  pattern: MGE (1)
 - name: Radarr - MisFiTS
   negate: false
+  pattern: MisFiTS
   required: false
   type: release_group
-  pattern: MisFiTS
 - name: Radarr - RUBBiSH
   negate: false
+  pattern: RUBBiSH
   required: false
   type: release_group
-  pattern: RUBBiSH
 - name: Radarr - RWP
   negate: false
+  pattern: RWP
   required: false
   type: release_group
-  pattern: RWP
 - name: Radarr - TMSF
   negate: false
+  pattern: TMSF
   required: false
   type: release_group
-  pattern: TMSF
 - name: Radarr - TV4A
   negate: false
+  pattern: TV4A
   required: false
   type: release_group
-  pattern: TV4A
 - name: Radarr - HAXE
   negate: false
+  pattern: HAXE
   required: false
   type: release_group
-  pattern: HAXE
 - name: Radarr - muhHD
   negate: false
+  pattern: muhHD
   required: false
   type: release_group
-  pattern: muhHD
 - name: Radarr - RiLE
   negate: false
+  pattern: RiLE
   required: false
   type: release_group
-  pattern: RiLE
 - name: Radarr - W4K
   negate: false
-  required: false
-  type: release_group
   pattern: Radarr - W4K
-- name: Radarr - ENDSTATiON
-  negate: false
   required: false
   type: release_group
-  pattern: ENDSTATiON
+- name: Radarr - MULTiPLEX
+  negate: false
+  pattern: Radarr - MULTiPLEX
+  required: false
+  type: release_group
 - name: Radarr - HDARCHiV
   negate: false
+  pattern: HDARCHiV
   required: false
   type: release_group
-  pattern: HDARCHiV
 - name: Radarr - PL3X
   negate: false
+  pattern: PL3X
   required: false
   type: release_group
-  pattern: PL3X
 - name: Radarr - WATCHABLE
   negate: false
+  pattern: WATCHABLE
   required: false
   type: release_group
-  pattern: WATCHABLE
 - name: Radarr - OHD
   negate: false
+  pattern: OHD
   required: false
   type: release_group
-  pattern: OHD
 - name: Radarr - ENCOUNTERS
   negate: false
+  pattern: ENCOUNTERS
   required: false
   type: release_group
-  pattern: ENCOUNTERS
 - name: Radarr - RSG
   negate: false
+  pattern: RSG
   required: false
   type: release_group
-  pattern: RSG
 - name: Radarr - OCA
   negate: false
+  pattern: OCA
   required: false
   type: release_group
-  pattern: OCA
 - name: Radarr - UNDERTAKERS
   negate: false
+  pattern: Radarr - UNDERTAKERS
   required: false
   type: release_group
-  pattern: Radarr - UNDERTAKERS
 - name: Radarr - CDP
   negate: false
+  pattern: CDP
   required: false
   type: release_group
-  pattern: CDP
 - name: Radarr - SAViOURHD
   negate: false
+  pattern: Radarr - SAViOURHD
   required: false
   type: release_group
-  pattern: Radarr - SAViOURHD
 - name: Radarr - RiLE
   negate: false
+  pattern: RiLE
   required: false
   type: release_group
-  pattern: RiLE
 - name: Radarr - CONTRiBUTiON
   negate: false
+  pattern: CONTRiBUTiON
   required: false
   type: release_group
-  pattern: CONTRiBUTiON
 - name: Radarr - GOREHOUNDS
   negate: false
+  pattern: Radarr - GOREHOUNDS
   required: false
   type: release_group
-  pattern: Radarr - GOREHOUNDS
 - name: Radarr - SPiCY
   negate: false
+  pattern: Radarr - SPiCY
   required: false
   type: release_group
-  pattern: Radarr - SPiCY
 - name: Radarr - bi0hazard
   negate: false
+  pattern: bi0hazard
   required: false
   type: release_group
-  pattern: bi0hazard
 tests: []

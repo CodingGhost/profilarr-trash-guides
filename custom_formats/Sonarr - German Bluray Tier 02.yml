@@ -7,37 +7,37 @@ tags:
 conditions:
 - name: Sonarr - VECTOR
   negate: false
-  required: false
-  type: release_group
   pattern: VECTOR
-- name: Sonarr - MULTiPLEX
-  negate: false
   required: false
   type: release_group
-  pattern: Sonarr - MULTiPLEX
+- name: Sonarr - ENDSTATiON
+  negate: false
+  pattern: ENDSTATiON
+  required: false
+  type: release_group
 - name: Sonarr - SiXTYNiNE
   negate: false
+  pattern: Sonarr - SiXTYNiNE
   required: false
   type: release_group
-  pattern: Sonarr - SiXTYNiNE
 - name: Sonarr - Oergel
   negate: false
+  pattern: Sonarr - Oergel
   required: false
   type: release_group
-  pattern: Sonarr - Oergel
 - name: Sonarr - ABJ
   negate: false
+  pattern: Sonarr - ABJ
   required: false
   type: release_group
-  pattern: Sonarr - ABJ
 - name: Sonarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Sonarr - Not REMUX
   negate: true
   required: true
-  type: source
   source: bluray_raw
+  type: source
 tests: []

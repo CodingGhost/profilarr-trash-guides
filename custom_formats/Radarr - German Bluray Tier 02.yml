@@ -8,47 +8,47 @@ tags:
 conditions:
 - name: Radarr - VECTOR
   negate: false
-  required: false
-  type: release_group
   pattern: Radarr - VECTOR (1)
-- name: Radarr - MULTiPLEX
-  negate: false
   required: false
   type: release_group
-  pattern: Radarr - MULTiPLEX
+- name: Radarr - ENDSTATiON
+  negate: false
+  pattern: ENDSTATiON
+  required: false
+  type: release_group
 - name: Radarr - SiXTYNiNE
   negate: false
+  pattern: Radarr - SiXTYNiNE
   required: false
   type: release_group
-  pattern: Radarr - SiXTYNiNE
 - name: Radarr - Oergel
   negate: false
+  pattern: Radarr - Oergel
   required: false
   type: release_group
-  pattern: Radarr - Oergel
 - name: Radarr - ABJ
   negate: false
+  pattern: Radarr - ABJ
   required: false
   type: release_group
-  pattern: Radarr - ABJ
 - name: Radarr - paranoid06
   negate: false
+  pattern: Radarr - paranoid06
   required: false
   type: release_group
-  pattern: Radarr - paranoid06
 - name: Radarr - RocketHD
   negate: false
+  pattern: Radarr - RocketHD
   required: false
   type: release_group
-  pattern: Radarr - RocketHD
 - name: Radarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Radarr - Not Remux
   negate: true
+  qualityModifier: remux
   required: true
   type: quality_modifier
-  qualityModifier: remux
 tests: []
