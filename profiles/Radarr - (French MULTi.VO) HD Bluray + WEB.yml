@@ -63,12 +63,12 @@ qualities:
   name: Bluray|WEB 1080p
   description: ''
   qualities:
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 10
     name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
 - id: 13
   name: Bluray-720p
 upgrade_until:

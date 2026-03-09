@@ -41,7 +41,7 @@ conditions:
   negate: false
   required: false
   type: release_group
-  pattern: Radarr - Chotab
+  pattern: Chotab
 - name: Radarr - CRiSC
   negate: false
   required: false

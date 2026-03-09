@@ -15,11 +15,16 @@ conditions:
   required: false
   type: source
   source: webrip
+- name: Sonarr - BLOOM
+  negate: false
+  required: false
+  type: release_group
+  pattern: BLOOM
 - name: Sonarr - Dooky
   negate: false
   required: false
   type: release_group
-  pattern: Dooky
+  pattern: Dooky (1)
 - name: Sonarr - DRACULA
   negate: false
   required: false

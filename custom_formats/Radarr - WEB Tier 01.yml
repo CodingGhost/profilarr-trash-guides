@@ -79,7 +79,7 @@ conditions:
   negate: false
   required: false
   type: release_group
-  pattern: Kitsune
+  pattern: Kitsune (1)
 - name: Radarr - NOSiViD
   negate: false
   required: false
@@ -104,7 +104,7 @@ conditions:
   negate: false
   required: false
   type: release_group
-  pattern: SiC
+  pattern: SiC (1)
 - name: Radarr - TEPES
   negate: false
   required: false

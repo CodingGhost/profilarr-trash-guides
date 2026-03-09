@@ -74,12 +74,12 @@ qualities:
   name: Bluray|WEB 2160p
   description: ''
   qualities:
-  - id: 5
-    name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
   - id: 4
     name: Bluray-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 5
+    name: WEBDL-2160p
 - id: 8
   name: Remux-1080p
 upgrade_until:

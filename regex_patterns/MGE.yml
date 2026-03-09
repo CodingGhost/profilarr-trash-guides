@@ -1,7 +1,0 @@
-name: MGE
-pattern: ^(MGE)$
-description: ''
-tags:
-- Radarr
-- Sonarr
-tests: []

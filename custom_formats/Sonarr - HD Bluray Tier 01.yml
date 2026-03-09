@@ -25,7 +25,7 @@ conditions:
   negate: false
   required: false
   type: release_group
-  pattern: Radarr - Chotab
+  pattern: Chotab
 - name: Sonarr - CtrlHD
   negate: false
   required: false
