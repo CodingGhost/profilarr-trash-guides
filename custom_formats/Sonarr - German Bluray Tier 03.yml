@@ -7,32 +7,37 @@ tags:
 conditions:
 - name: Sonarr - RobertDeNiro
   negate: false
+  pattern: RobertDeNiro
   required: false
   type: release_group
-  pattern: RobertDeNiro
 - name: Sonarr - HQC
   negate: false
+  pattern: Sonarr - HQC
   required: false
   type: release_group
-  pattern: Sonarr - HQC
 - name: Sonarr - RDR
   negate: false
+  pattern: RDR
   required: false
   type: release_group
-  pattern: RDR
 - name: Sonarr - HDSource
   negate: false
+  pattern: HDSource
   required: false
   type: release_group
-  pattern: HDSource
 - name: Sonarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Sonarr - Not REMUX
   negate: true
   required: true
-  type: source
   source: bluray_raw
+  type: source
+- name: Sonarr - Endstation
+  type: release_group
+  required: false
+  negate: false
+  pattern: ENDSTATiON
 tests: []

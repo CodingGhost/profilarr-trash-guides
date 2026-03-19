@@ -54,11 +54,6 @@ conditions:
   pattern: EXCiTED
   required: false
   type: release_group
-- name: Sonarr - iNTENTiON
-  negate: false
-  pattern: iNTENTiON
-  required: false
-  type: release_group
 - name: Sonarr - JaJunge
   negate: false
   pattern: JaJunge

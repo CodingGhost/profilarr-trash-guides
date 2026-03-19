@@ -54,11 +54,6 @@ conditions:
   pattern: EXCiTED
   required: false
   type: release_group
-- name: Radarr - iNTENTiON
-  negate: false
-  pattern: iNTENTiON
-  required: false
-  type: release_group
 - name: Radarr - JaJunge
   negate: false
   pattern: JaJunge

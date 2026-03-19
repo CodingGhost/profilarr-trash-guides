@@ -8,52 +8,57 @@ tags:
 conditions:
 - name: Radarr - RobertDeNiro
   negate: false
+  pattern: RobertDeNiro
   required: false
   type: release_group
-  pattern: RobertDeNiro
 - name: Radarr - LeetHD
   negate: false
+  pattern: Radarr - LeetHD
   required: false
   type: release_group
-  pattern: Radarr - LeetHD
 - name: Radarr - RHD
   negate: false
+  pattern: Radarr - RHD
   required: false
   type: release_group
-  pattern: Radarr - RHD
 - name: Radarr - HDSource
   negate: false
+  pattern: HDSource
   required: false
   type: release_group
-  pattern: HDSource
 - name: Radarr - UNFIrED
   negate: false
+  pattern: Radarr - UNFIrED
   required: false
   type: release_group
-  pattern: Radarr - UNFIrED
 - name: Radarr - iNCEPTION
   negate: false
+  pattern: iNCEPTION
   required: false
   type: release_group
-  pattern: iNCEPTION
 - name: Radarr - FX
   negate: false
+  pattern: Radarr - FX
   required: false
   type: release_group
-  pattern: Radarr - FX
 - name: Radarr - RDR
   negate: false
+  pattern: RDR
   required: false
   type: release_group
-  pattern: RDR
 - name: Radarr - Bluray
   negate: false
   required: true
-  type: source
   source: bluray
+  type: source
 - name: Radarr - Not Remux
   negate: true
+  qualityModifier: remux
   required: true
   type: quality_modifier
-  qualityModifier: remux
+- name: Radarr - Endstation
+  type: release_group
+  required: false
+  negate: false
+  pattern: ENDSTATiON
 tests: []
