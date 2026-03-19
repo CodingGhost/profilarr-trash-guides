@@ -13,9 +13,9 @@ conditions:
   type: release_group
 - name: Radarr - ZeroTwo Aliases
   negate: false
-  pattern: Radarr - ZeroTwo Aliases
   required: false
   type: release_group
+  pattern: ZeroTwo Aliases
 - name: Radarr - TSCC
   negate: false
   pattern: TSCC

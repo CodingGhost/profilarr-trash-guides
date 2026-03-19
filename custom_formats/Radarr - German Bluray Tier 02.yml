@@ -18,9 +18,9 @@ conditions:
   type: release_group
 - name: Radarr - SiXTYNiNE
   negate: false
-  pattern: Radarr - SiXTYNiNE
   required: false
   type: release_group
+  pattern: Radarr - SiXTYNiNE (1)
 - name: Radarr - Oergel
   negate: false
   pattern: Radarr - Oergel
@@ -28,9 +28,9 @@ conditions:
   type: release_group
 - name: Radarr - ABJ
   negate: false
-  pattern: Radarr - ABJ
   required: false
   type: release_group
+  pattern: Radarr - ABJ (1)
 - name: Radarr - paranoid06
   negate: false
   pattern: Radarr - paranoid06

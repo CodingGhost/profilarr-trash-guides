@@ -17,9 +17,9 @@ conditions:
   type: release_group
 - name: Sonarr - SiXTYNiNE
   negate: false
-  pattern: Sonarr - SiXTYNiNE
   required: false
   type: release_group
+  pattern: SiXTYNiNE
 - name: Sonarr - Oergel
   negate: false
   pattern: Sonarr - Oergel
@@ -27,9 +27,9 @@ conditions:
   type: release_group
 - name: Sonarr - ABJ
   negate: false
-  pattern: Sonarr - ABJ
   required: false
   type: release_group
+  pattern: ABJ
 - name: Sonarr - Bluray
   negate: false
   required: true
