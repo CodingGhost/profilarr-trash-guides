@@ -35,9 +35,9 @@ conditions:
   required: true
   source: bluray_raw
   type: source
-- name: Sonarr - Endstation
-  type: release_group
-  required: false
+- name: Sonarr - INTENTiON
   negate: false
-  pattern: ENDSTATiON
+  pattern: iNTENTiON
+  required: false
+  type: release_group
 tests: []

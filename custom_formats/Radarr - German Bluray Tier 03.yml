@@ -56,9 +56,9 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: Radarr - Endstation
-  type: release_group
-  required: false
+- name: Radarr - INTENTiON
   negate: false
-  pattern: ENDSTATiON
+  pattern: iNTENTiON
+  required: false
+  type: release_group
 tests: []
