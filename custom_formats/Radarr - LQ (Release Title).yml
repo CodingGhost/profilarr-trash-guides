@@ -34,6 +34,11 @@ conditions:
   required: false
   type: release_title
   pattern: Radarr - GalaxyRG
+- name: Radarr - HHWEB (No MA)
+  negate: false
+  required: false
+  type: release_title
+  pattern: Radarr - HHWEB (No MA)
 - name: Radarr - jennaortega
   negate: false
   required: false
@@ -64,6 +69,11 @@ conditions:
   required: false
   type: release_title
   pattern: Radarr - TEKNO3D
+- name: Radarr - UnKn0wn (NoRemux)
+  negate: false
+  required: false
+  type: release_title
+  pattern: Radarr - UnKn0wn (NoRemux)
 - name: Radarr - Will1869
   negate: false
   required: false
