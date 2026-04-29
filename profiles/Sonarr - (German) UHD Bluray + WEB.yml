@@ -38,6 +38,8 @@ custom_formats:
   score: 1600
 - name: Sonarr - German 1080p Booster
   score: 650
+- name: Radarr - DV Boost
+  score: 500
 - name: Sonarr - 2160p
   score: 100
 - name: Sonarr - 1080p
@@ -76,6 +78,8 @@ custom_formats:
   score: -35000
 - name: Sonarr - x265 (no HDR-DV)
   score: -35000
+custom_formats_radarr: []
+custom_formats_sonarr: []
 qualities:
 - id: -1
   name: Merged QPs

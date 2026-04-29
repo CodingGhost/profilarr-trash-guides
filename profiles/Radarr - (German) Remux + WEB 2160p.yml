@@ -42,8 +42,8 @@ custom_formats:
   score: 1600
 - name: Radarr - German 1080p Booster
   score: 650
-- name: Radarr - DV Boost
-  score: 500
+- name: Radarr - Hybrid
+  score: 200
 - name: Radarr - 2160p
   score: 100
 - name: Radarr - 1080p
