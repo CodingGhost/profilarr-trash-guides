@@ -38,8 +38,6 @@ custom_formats:
   score: 1600
 - name: Sonarr - German 1080p Booster
   score: 650
-- name: Radarr - DV Boost
-  score: 500
 - name: Sonarr - 2160p
   score: 100
 - name: Sonarr - 1080p
