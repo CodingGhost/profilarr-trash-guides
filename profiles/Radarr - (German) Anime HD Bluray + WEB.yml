@@ -93,12 +93,6 @@ custom_formats:
   score: 1
 - name: Radarr - v0
   score: -51
-- name: Radarr - Bad Dual Groups
-  score: -10000
-- name: Radarr - Black and White Editions
-  score: -10000
-- name: Radarr - Sing-Along Versions
-  score: -10000
 - name: Radarr - 3D
   score: -35000
 - name: Radarr - Anime LQ Groups
@@ -106,6 +100,8 @@ custom_formats:
 - name: Radarr - Anime Raws
   score: -35000
 - name: Radarr - AV1
+  score: -35000
+- name: Radarr - Black and White Editions
   score: -35000
 - name: Radarr - BR-DISK
   score: -35000
@@ -125,6 +121,8 @@ custom_formats:
   score: -35000
 - name: Radarr - Not German, Japanese or English
   score: -35000
+- name: Radarr - Sing-Along Versions
+  score: -35000
 - name: Radarr - Upscaled
   score: -35000
 - name: Radarr - VOSTFR
@@ -134,18 +132,18 @@ qualities:
   name: Merged QPs
   description: ''
   qualities:
-  - id: 15
-    name: WEBRip-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 13
-    name: Bluray-720p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 10
     name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
 upgrade_until:
   id: -1
   name: Merged QPs

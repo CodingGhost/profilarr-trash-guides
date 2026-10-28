@@ -106,7 +106,11 @@ conditions:
   type: release_group
 - name: Radarr - W4K
   negate: false
-  pattern: Radarr - W4K
+  required: false
+  type: release_group
+  pattern: W4K
+- name: Radarr - ENDSTATiON
+  negate: false
   required: false
   type: release_group
 - name: Radarr - MULTiPLEX

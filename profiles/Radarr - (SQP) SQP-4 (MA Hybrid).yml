@@ -10,44 +10,52 @@ description: '[Profile from TRaSH-Guides.](https://trash-guides.info/Radarr/rada
 tags:
 - Radarr
 upgradesAllowed: true
-minCustomFormatScore: 2725
+minCustomFormatScore: 3970
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: Radarr - WEBDL Boost
-  score: 2370
+  score: 3970
 - name: Radarr - hallowed
-  score: 2250
+  score: 3910
 - name: Radarr - BHDStudio
-  score: 2240
+  score: 3900
 - name: Radarr - DTS X
-  score: 1940
+  score: 2510
 - name: Radarr - TrueHD ATMOS
-  score: 1940
+  score: 2510
 - name: Radarr - DTS-HD MA
-  score: 1930
+  score: 2180
 - name: Radarr - TrueHD
-  score: 1930
+  score: 2180
+- name: Radarr - 7.1 Surround
+  score: 830
+- name: Radarr - 5.1 Surround
+  score: 780
+- name: Radarr - 6.1 Surround
+  score: 780
 - name: Radarr - ATMOS (undefined)
-  score: 800
+  score: 480
 - name: Radarr - DD+ ATMOS
-  score: 800
-- name: Radarr - DD+
-  score: 795
-- name: Radarr - DD
-  score: 770
+  score: 480
 - name: Radarr - FLAC
-  score: 500
+  score: 380
 - name: Radarr - PCM
-  score: 500
-- name: Radarr - DTS-HD HRA
-  score: 400
+  score: 380
 - name: Radarr - DTS-ES
-  score: 250
-- name: Radarr - DTS
-  score: 200
+  score: 330
+- name: Radarr - DTS-HD HRA
+  score: 330
+- name: Radarr - 2.0 Stereo
+  score: 310
+- name: Radarr - DD+
+  score: 280
 - name: Radarr - AAC
-  score: 100
+  score: 80
+- name: Radarr - DD
+  score: 80
+- name: Radarr - DTS
+  score: 75
 - name: Radarr - WEB Tier 01
   score: 30
 - name: Radarr - WEB Tier 02
@@ -62,10 +70,6 @@ custom_formats:
   score: 2
 - name: Radarr - Repack-Proper
   score: 1
-- name: Radarr - 2.0 Stereo
-  score: -275
-- name: Radarr - 1.0 Mono
-  score: -285
 - name: Radarr - 3D
   score: -10000
 - name: Radarr - AV1
@@ -80,15 +84,17 @@ custom_formats:
   score: -10000
 - name: Radarr - Generated Dynamic HDR
   score: -10000
+- name: Radarr - Line-Mic Dubbed
+  score: -10000
 - name: Radarr - LQ
   score: -10000
 - name: Radarr - LQ (Release Title)
   score: -10000
+- name: Radarr - No-RlsGroup
+  score: -10000
 - name: Radarr - Sing-Along Versions
   score: -10000
 - name: Radarr - Upscaled
-  score: -10000
-- name: Radarr - Wrong Language
   score: -10000
 - name: Radarr - x265 (no HDR-DV)
   score: -10000

@@ -29,11 +29,26 @@ conditions:
   required: false
   type: release_group
   pattern: C.A.A
+- name: Radarr - C76
+  negate: false
+  required: false
+  type: release_group
+  pattern: C76
 - name: Radarr - Cory
   negate: false
   required: false
   type: release_group
   pattern: Cory
+- name: Radarr - CYPHER
+  negate: false
+  required: false
+  type: release_group
+  pattern: CYPHER
+- name: Radarr - EniaHD
+  negate: false
+  required: false
+  type: release_group
+  pattern: EniaHD
 - name: Radarr - EXTREME
   negate: false
   required: false
@@ -69,11 +84,21 @@ conditions:
   required: false
   type: release_group
   pattern: Radarr - MGE
+- name: Radarr - MLH
+  negate: false
+  required: false
+  type: release_group
+  pattern: MLH
 - name: Radarr - N3G4N
   negate: false
   required: false
   type: release_group
   pattern: N3G4N
+- name: Radarr - OldT
+  negate: false
+  required: false
+  type: release_group
+  pattern: OldT
 - name: Radarr - ONLYMOViE
   negate: false
   required: false
@@ -139,6 +164,11 @@ conditions:
   required: false
   type: release_group
   pattern: WTV
+- name: Radarr - XiQUEXiQUE
+  negate: false
+  required: false
+  type: release_group
+  pattern: XiQUEXiQUE
 - name: Radarr - Yatogam1
   negate: false
   required: false

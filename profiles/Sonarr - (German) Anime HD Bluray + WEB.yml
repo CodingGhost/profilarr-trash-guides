@@ -91,10 +91,6 @@ custom_formats:
   score: 1
 - name: Sonarr - v0
   score: -51
-- name: Sonarr - Bad Dual Groups
-  score: -10000
-- name: Sonarr - BR-DISK (BTN)
-  score: -10000
 - name: Sonarr - Anime LQ Groups
   score: -35000
 - name: Sonarr - Anime Raws
@@ -126,18 +122,18 @@ qualities:
   name: Merged QPs
   description: ''
   qualities:
-  - id: 15
-    name: WEBRip-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 13
-    name: Bluray-720p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 10
     name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
 upgrade_until:
   id: -1
   name: Merged QPs
